@@ -1,0 +1,28 @@
+{
+  "name": "paquete-estadistica",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aalcocer07/paquete-estadistica-js.git"
+  },
+  "keywords": [],
+  "author": "Anthony Rojas Alcocer",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https//npm.pkg.github.com"
+  },
+  "bugs": {
+    "url": "https://github.com/aalcocer07/paquete-estadistica-js/issues"
+  },
+  "homepage": "https://github.com/aalcocer07/paquete-estadistica-js#readme",
+  "description": "Funciones estadísticas y generacion de graficas con Node.js",
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "chart.js": "^4.4.9",
+    "chartjs-node-canvas": "^5.0.0"
+  }
+}
